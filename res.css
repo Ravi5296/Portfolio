@@ -1,0 +1,136 @@
+
+@media only screen and (max-width: 1300px) {
+    .body{
+        width: 70rem;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .body{
+        width: 60rem;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .body{
+        width: 55rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .body{
+        width: 45rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .body{
+        width: 100%;
+    }
+    body{
+        font-size: 18px;
+    }
+    #menu-button{
+        display: block;
+    }
+    .right li{
+        display: none;
+    }
+    .int1{
+        font-size: 18px;
+    }
+    .int2{
+        font-size: 40px;
+    }
+    .about{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .back_img{
+        display: flex;
+    }
+    .about_right::before{
+        display: none;
+    }
+    .about_right{
+        width: 100%;
+        /* margin: auto; */
+        padding: 2rem;
+    }
+    #about_img{
+        margin: auto;
+    }
+    .icon_container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .icon{
+        margin: 2rem auto;
+    }
+    .p_project{
+        flex-direction: column;     
+        justify-content: center;
+    }
+    .P_left{
+        max-width: 100%;
+        height: 300px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .p_right{
+        max-width: 100%;
+        padding: 2rem;
+        margin: auto; 
+    }
+    .hide2{
+        display: none;
+    }
+    .hide1{
+        display: flex;
+    }
+    .a_contain h1{
+        font-size: 5rem;
+    }
+    #achievements{
+        padding: 2rem;
+    }
+
+    .body{
+        margin-top: 1rem;
+    }
+    
+    .heading h1{
+        font-size: 2rem;
+    }
+    .about_left {
+        margin-top: 5rem;
+    }
+    #p_e{
+        width: 100%;
+        margin: 0;
+        padding: 2rem;
+    }
+    .skill_detail{
+        width: 100%;
+    }
+    .skill{
+        padding: 2rem;
+    }
+    #contact{
+        width: 100%;
+    }
+    .c_detail{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .c_detail p{
+        font-size: 20px;
+        color: #8c8c8c;
+        padding: .5rem;
+        width: 100%;
+    }
+
+    .c_detail p:nth-child(3){
+        width: 100%;
+    }
+
+    #form{
+        width: 90%;
+    }
+}
